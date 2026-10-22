@@ -1,4 +1,10 @@
 import argparse, json, time
+import os
+import sys
+
+# Ensure project root is in sys.path when running from within train/
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_digits
