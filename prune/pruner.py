@@ -83,7 +83,10 @@ class SelfPruner:
         if n_regrow > 0:
             grad_scores = np.concatenate(
                 [
-                    (np.abs(l.W.grad) * (1.0 - new_flat_mask[self._slice(i)])).ravel()
+                    (
+                        np.abs(l.W.grad)
+                        * (1.0 - new_flat_mask[self._slice(i)].reshape(l.W.grad.shape))
+                    ).ravel()
                     for i, l in enumerate(self.layers)
                 ]
             )
