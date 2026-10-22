@@ -11,7 +11,7 @@ uv venv && source .venv/bin/activate
 uv pip install -e .
 
 # 1. Run Part 1 finite-difference gradient check & masked-weight optimizer tests
-pytest tests/test_engine.py -v
+uv run pytest tests/test_engine.py -v
 
 # 2. Reproduce Part 2 baseline dense training
 python train/run.py part2
