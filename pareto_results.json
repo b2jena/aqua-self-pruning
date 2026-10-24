@@ -4,36 +4,36 @@
       "mean_acc": 0.9777777777777776,
       "std_acc": 0.0035136418446315197,
       "sparse_flops": 34048,
-      "dense_ms": 25.24,
-      "sparse_ms": 2510.9
+      "dense_ms": 25.29,
+      "sparse_ms": 2421.96
     },
     "0.5": {
       "mean_acc": 0.9777777777777779,
       "std_acc": 0.008240220541217428,
       "sparse_flops": 17024,
-      "dense_ms": 13.46,
-      "sparse_ms": 1309.21
+      "dense_ms": 12.74,
+      "sparse_ms": 1427.13
     },
     "0.75": {
       "mean_acc": 0.9788888888888888,
       "std_acc": 0.004513354669242184,
       "sparse_flops": 8512,
-      "dense_ms": 19.86,
-      "sparse_ms": 710.74
+      "dense_ms": 31.83,
+      "sparse_ms": 712.96
     },
     "0.9": {
       "mean_acc": 0.9772222222222222,
       "std_acc": 0.005931710140017407,
       "sparse_flops": 3404,
-      "dense_ms": 48.43,
-      "sparse_ms": 373.36
+      "dense_ms": 21.65,
+      "sparse_ms": 252.8
     },
     "0.95": {
       "mean_acc": 0.9661111111111111,
       "std_acc": 0.004444444444444429,
       "sparse_flops": 1702,
-      "dense_ms": 28.03,
-      "sparse_ms": 144.53
+      "dense_ms": 36.56,
+      "sparse_ms": 150.84
     }
   },
   "magnitude": {
@@ -41,36 +41,36 @@
       "mean_acc": 0.9777777777777776,
       "std_acc": 0.0035136418446315197,
       "sparse_flops": 34048,
-      "dense_ms": 28.53,
-      "sparse_ms": 2440.42
+      "dense_ms": 24.46,
+      "sparse_ms": 2819.47
     },
     "0.5": {
       "mean_acc": 0.9783333333333333,
       "std_acc": 0.0071145824860365066,
       "sparse_flops": 17024,
-      "dense_ms": 16.09,
-      "sparse_ms": 1181.0
+      "dense_ms": 18.09,
+      "sparse_ms": 1299.08
     },
     "0.75": {
       "mean_acc": 0.9788888888888889,
       "std_acc": 0.00451335466924222,
       "sparse_flops": 8512,
-      "dense_ms": 14.01,
-      "sparse_ms": 649.4
+      "dense_ms": 30.55,
+      "sparse_ms": 676.98
     },
     "0.9": {
       "mean_acc": 0.9766666666666666,
       "std_acc": 0.005983516452371685,
       "sparse_flops": 3404,
-      "dense_ms": 28.39,
-      "sparse_ms": 457.93
+      "dense_ms": 11.23,
+      "sparse_ms": 316.81
     },
     "0.95": {
       "mean_acc": 0.9738888888888889,
       "std_acc": 0.005152010275275373,
       "sparse_flops": 1702,
-      "dense_ms": 18.19,
-      "sparse_ms": 170.35
+      "dense_ms": 20.85,
+      "sparse_ms": 182.99
     }
   }
 }
