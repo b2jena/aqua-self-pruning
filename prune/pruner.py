@@ -53,9 +53,11 @@ class SelfPruner:
         # 1. Global Importance Scoring across all layers
         all_scores = np.concatenate(
             [
-                (self.ema_saliency[i] * l.mask).ravel()
-                if self.mode == "saliency"
-                else (np.abs(l.W.data) * l.mask).ravel()
+                (
+                    (self.ema_saliency[i] * l.mask).ravel()
+                    if self.mode == "saliency"
+                    else (np.abs(l.W.data) * l.mask).ravel()
+                )
                 for i, l in enumerate(self.layers)
             ]
         )
